@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Nunito;
+}
+#navbar{
+    height:5vh;
+    width:100%;
+    position:fixed;
+    
+    
+    
+}
+#navbar ul{
+    position:relative;
+    width:30%;
+    height:inherit;
+    float:right;
+    display:flex;
+    max-width:100%;
+    
+    
+}
+#navbar ul a{
+    margin:2%;
+    text-decoration:none;
+    font-weight:bold;
+}
+#navbar ul li{
+    list-style-type: none;      
+}
+
+#home{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#a0d2eb;
+}
+#title_div{
+    width:fit-content;
+}
+
+#about{
+background-color:#d0b0f4;
+}
+#about_heading{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.ab_h{
+    margin:2%;
+}
+#about_content{
+    width:90%;
+    display:flex;
+    margin:0 auto;
+    align-items:center;
+    justify-content: center;
+    
+}
+.non-academic{
+    margin:3%;
+    width:300px;
+    height:300px;
+    box-shadow:5px 5px 8px 8px;
+}
+.non-academic h1{
+    text-align:center;
+    margin-top:-20%;
+    
+}
+.non-academic img{
+    width:300px;
+    height:300px;
+   
+}
+#projects{
+    background-color:#8468b3;
+}
+#projects_heading{
+    width:90%;
+    height:20%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:3% 0%;
+}
+
+#project_content{
+    width:90%;
+    display:flex;
+    margin:0 auto;
+    align-items:center;
+    justify-content: center;
+}
+
+.academic{
+    margin:3%;
+    width:300px;
+    height:300px;
+    box-shadow:5px 5px 8px 8px;
+}
+.academic h1{
+    text-align:center;
+    margin-top:-25%;
+}
+.academic img{
+    width:300px;
+    height:300px;
+    
+}
+#contact{
+    height:100vh;
+    background-color:#494d5f;
+}
+#contact_heading{
+    height:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#contact_img{
+    display:flex;
+    width:fit-content;
+    margin:0 auto;
+}
+#contact_img div{
+  margin:10px;
+}
+
+
+#contact_img div img{
+    width:70px;
+    height:70px;  
+}
+
+@media(max-width:500px){
+    #navbar{
+        position:fixed;
+    }
+    #navbar ul{
+        width:100%;
+        justify-content: center;
+        background-color:red;
+    }
+    #about_content{
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+    #project_content{
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+}
